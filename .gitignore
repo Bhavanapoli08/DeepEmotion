@@ -1,0 +1,25 @@
+# Ignore virtual environments
+.env/
+env/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large model and data files
+*.h5
+*.hdf5
+*.keras
+
+# Ignore compiled shared object files (platform-specific binaries)
+*.so
+*.dylib
+*.dll
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VSCode settings (if using VSCode
